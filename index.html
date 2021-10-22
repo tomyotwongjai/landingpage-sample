@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!-- REMIX ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <title>Landing  Page</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">
+                <img src="assets/img/favicon.png" alt="logo">
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="active-link nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#specs" class="nav-link">Specs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#products" class="nav-link">Products</a>
+                    </li>
+                </ul>
+
+                <div class="nav-close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div>
+                    <img src="assets/img/product1.jpg" alt="#">
+                </div>
+
+                <div class="home-data">
+                    <div class="home-header">
+                        <h1 class="home-title">Tesla</h1>
+                        <br>
+                        <h3 class="home-subtitle">Model S Plaid</h3>
+                    </div>
+                </div>
+
+                <div class="home-footer">
+                    <h3 class="home-title-description">Overview</h3>
+                    <p class="home-description">The 2021 Tesla Model S is an all-electric sedan that sits at the top of the automaker's lineup.
+                        The Model S might be the oldest vehicle Tesla currently sells,
+                        but it's still desirable thanks to robust performance as well as unparalleled all-electric range. 
+                        Currently, the Model S Long Range boasts an estimated 405 miles, which is the most from any EV on the market.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="specs section grid" id="specs">
+            <h2 class="section-title section-title-gradient">Specs</h2>
+            <img src="assets/img/product.jpg" alt="#">
+            <div class="specs-container container grid">
+                <div class="specs-content grid">
+                    <div class="specs-data">
+                        <h3 class="specs-title">Range :</h3>
+                        <span class="specs-subtitle">
+                            637km (est.)
+                            <br>
+                            1/4 Mile
+                            <br>
+                            9.23@250 km/h trap speed
+                        </span>
+                    </div>
+                
+                    <div class="specs-data">
+                        <h3 class="specs-title">Peak Power :</h3>
+                        <span class="specs-subtitle">
+                            1,020 hp
+                        </span>
+                    </div>
+                    <div class="specs-data">
+                        <h3 class="specs-title">Wheels :</h3>
+                        <span class="specs-subtitle">
+                            19" or 21"
+                        </span>
+                    </div>
+                    <div class="specs-data">
+                        <h3 class="specs-title">Cargo :</h3>
+                        <span class="specs-subtitle">
+                            793 liters
+                        </span>
+                    </div>
+                    <div class="specs-data">
+                        <h3 class="specs-title">Weight :</h3>
+                        <span class="specs-subtitle">
+                        2,162 kg
+                        </span>
+                    </div>
+                    <div class="specs-data">
+                        <h3 class="specs-title">Acceleration :</h3>
+                        <span class="specs-subtitle">
+                            2.1 s 0-100 km/h *with rollout subtracted*
+                        </span>
+                    </div>
+                    <div class="specs-data">
+                        <h3 class="specs-title">Top speed :</h3>
+                        <span class="specs-subtitle">
+                            322 km/h(when equipped with proper wheel and tires)
+                        </span>
+                    </div>
+                    <div class="specs-data">
+                        <h3 class="specs-title">Other :</h3>
+                        <span class="specs-subtitle">
+                            Drag Coefficient/0.208cd with tri motor powertrain and max charge of 250kw.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products section" id="products">
+           <h2 class="section-title section-title-gradient products-line">Choose <br> Your Style</h2>
+
+           <div class="products-container container grid">
+               <article class="products-card">
+                   <div class="products-content">
+                       <img src="assets/img/tesla.png" alt="" class="products-img">
+                       <h3 class="products__title">White</h3>
+                       <span class="products__price">$131,100</span>
+    
+                       <button class="button button--flex products-button">
+                           <i class="ri-shopping-bag-line button-icon"></i>
+                       </button>
+                   </div>
+               </article>
+               <article class="products-card">
+                <div class="products-content">
+                    <img src="assets/img/teslard.png" alt="" class="products-img">
+                    <h3 class="products__title">Red</h3>
+                            <span class="products__price">$131,100</span>
+    
+                            <button class="button button--flex products-button">
+                                <i class="ri-shopping-bag-line button__icon"></i>
+                            </button>
+                </div>
+            </article>
+            <article class="products-card">
+                <div class="products-content">
+                    <img src="assets/img/teslabk.png" alt="" class="products-img">
+                    <h3 class="products__title">Black</h3>
+                    <span class="products__price">$131,100</span>
+    
+                    <button class="button button--flex products-button">
+                        <i class="ri-shopping-bag-line button__icon"></i>
+                    </button>
+                </div>
+            </article>
+            <article class="products-card">
+                <div class="products-content">
+                    <img src="assets/img/teslabl.png" alt="" class="products-img">
+                    <h3 class="products__title">Blue</h3>
+                    <span class="products__price">$131,100</span>
+    
+                    <button class="button button--flex products-button">
+                        <i class="ri-shopping-bag-line button__icon"></i>
+                    </button>
+                </div>
+            </article>
+           </div>
+        </section>
+    </main>
+
+<!-- Footer -->
+<footer class="footer section">
+    <div class="footer-contaier container grid">
+        <a href="" class="footer-logo">
+            <img src="assets/img/favicon.png" alt="logo">
+        </a>
+
+        <div class="footer-content">
+            <h3 class="footer-title">Support</h3>
+            <ul class="footer-links">
+                <li>
+                    <a href="#" class="footer-link">Product help</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Register</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Mechanic</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Guideline</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-content">
+            <form action="" class="footer-form">
+                <input type="email" placeholder="Email Address" class="footer-input">
+                <button class="button button-flex">
+                    <i class="ri-send-plane-line button-icon">Subscribe</i>
+                </button>
+            </form>
+
+            <div class="footer-social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer-social-link">
+                    <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer-social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <a href="https://www.twitter.com/" target="_blank" class="footer-social-link">
+                    <i class="ri-twitter-line"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <p class="footer-copy">
+        <i class="ri-copyright-line"> This is a sample land-page site. No affiliation to Tesla corp. Not ment for advertisement or promotion. 2021, all rights reserved.</i>
+    </p>
+</footer>
+
+<!-- SCROLL UP -->
+
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-s-line scrollup-icon"></i>
+</a>
+
+<!-- SCROLL REVEAL -->
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Javascript -->
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
